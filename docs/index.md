@@ -1,8 +1,6 @@
-
-
 # MCP Cases
 
-## Specification
+## Format
 
 > The Model Context Protocol (MCP) is an open protocol that enables seamless integration between LLM applications and external data sources and tools. 
 
