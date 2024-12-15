@@ -45,6 +45,6 @@ To run this, you would still need to install Golang and use `go test` command ru
 
 > A simple tool that proxies input from MCP client to MCP server and returns the output back to the client, while also logging both to the file line
 
-Prepend the command to run MCP server with `mcptee <path/to/filename>` and you will see what happens when client sends requests to the server and what server responds back in that filename.
+Prepend the command to run MCP server with `mcptee <path/to/file>` and you will see what happens when client sends requests to the server and what server responds back in that file.
 
 See more about examples and usage in [mcptee repository](https://github.com/strowk/mcptee?tab=readme-ov-file#usage).
