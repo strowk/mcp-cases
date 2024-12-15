@@ -92,9 +92,9 @@ As YAML supports multiple documents in one file, it is possible to define multip
 
 ### Formal
 
-To sum up: MCP Cases is a multi-document YAML file called cases where each document describes a separate named case with lists of input and output JSON objects.
+MCP Cases is a multi-document YAML file called cases where each document describes a separate named case with lists of input and output JSON objects.
 
-The case document should have only one `case` key mapped to string value.
+The case document MAY have one `case` key mapped to string value, and it SHOULD be a human-readable name of the case and there MUST be only one such key in the case document.
 
 The case document MAY have one or multiple keys starting with `in`, each of them MUST map to a valid object that SHOULD be matching correct JSON-RPC 2.0 request, response or notification that is intended to be sent from **client to server**.
 
