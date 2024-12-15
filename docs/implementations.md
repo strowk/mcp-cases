@@ -9,6 +9,7 @@ If you make anything based on this specification, please let me know so it can b
 | Name | Description | License |
 |------|-------------|---------|
 | [foxytest](https://github.com/strowk/foxy-contexts/tree/main/pkg/foxytest) | Golang package for MCP server integration tests | MIT |
+| [mcptee](https://github.com/strowk/mcptee) | Logging MCP server communication for troubleshooting | MIT |
 
 ## foxytest
 
@@ -39,3 +40,11 @@ func TestServer(t *testing.T) {
 This script reads test cases defined in format described above from "testdata" folder as a files with `_test.yaml` suffix, and runs them against `my_installed_mcp_server` executable, that would be started with no arguments.
 
 To run this, you would still need to install Golang and use `go test` command running it in the same folder as the `*_test.go` file (f.e name it `main_test.go`).
+
+## mcptee
+
+> A simple tool that proxies input from MCP client to MCP server and returns the output back to the client, while also logging both to the file line
+
+Prepend the command to run MCP server with `mcptee <path/to/filename>` and you will see what happens when client sends requests to the server and what server responds back in that filename.
+
+See more about examples and usage in [mcptee repository](https://github.com/strowk/mcptee?tab=readme-ov-file#usage).
