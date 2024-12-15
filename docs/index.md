@@ -144,7 +144,7 @@ Such list of cases is then called a `contract`. Contracts then could be used to 
 
 #### Rapid Prototyping
 
-When you only starting to develop your MCP server and not exactly sure how it should look like, you can start by writing MCP stories for the future implementation, while you collect requirements from experts and stakeholders. Having such active document could be a great way to communicate between people with different competences and to ensure that everyone is on the same page, while at the same time giving you a way to test your implementation later as well as seeing how LLMs would interact with it before you even start building.
+When you only starting to develop your MCP server and not exactly sure how it should look like, you can start by writing MCP cases for the future implementation, while you collect requirements from experts and stakeholders. Having such active document could be a great way to communicate between people with different competences and to ensure that everyone is on the same page, while at the same time giving you a way to test your implementation later as well as seeing how LLMs would interact with it before you even start building.
 
 Same applies for any new features you would be implementing. Not sure if it is better to be a prompt or a tool? Sketch a quick case, give it to mock server and see how it would look like from the actual client's perspective.
 
