@@ -8,8 +8,23 @@ If you make anything based on this specification, please let me know so it can b
 
 | Name | Description | License |
 |------|-------------|---------|
+| [mcp-autotest](https://github.com/strowk/mcp-autotest) | CLI utility for language agnostic MCP server integration tests | MIT |
 | [foxytest](https://github.com/strowk/foxy-contexts/tree/main/pkg/foxytest) | Golang package for MCP server integration tests | MIT |
 | [mcptee](https://github.com/strowk/mcptee) | Logging MCP server communication for troubleshooting | MIT |
+
+## mcp-autotest
+
+> mcp-autotest is a CLI utility for language agnostic MCP server integration tests.
+
+Once [installed](https://github.com/strowk/mcp-autotest#installation) and with test cases with names ending on `_test.yaml` put in f.e `testdata` folder, you can run it like this:
+
+```bash
+mcp-autotest run testdata <path/to/mcp_server_executable> <args...>
+```
+
+For example: `mcp-autotest run testdata go run main.go` for Golang or `mcp-autotest run testdata uv run main.py` for Python and so on.
+
+You can quickly try it via npx using `npx mcp-autotest`.
 
 ## foxytest
 
