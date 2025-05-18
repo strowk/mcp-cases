@@ -6,6 +6,7 @@ nav:
   # - Links: links.md
 
 repo_url: https://github.com/strowk/mcp-cases
+repo_name: strowk/mcp-cases
 
 plugins:
   - search
