@@ -5,6 +5,7 @@ nav:
   - Implementations: implementations.md
   # - Links: links.md
 
+repo_url: https://github.com/strowk/mcp-cases
 
 plugins:
   - search
